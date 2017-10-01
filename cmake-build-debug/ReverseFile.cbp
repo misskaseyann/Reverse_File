@@ -88,9 +88,6 @@
 		<Unit filename="/Users/kaseystowell/CLionProjects/ReverseFile/files_utils.c">
 			<Option target="ReverseFile"/>
 		</Unit>
-		<Unit filename="/Users/kaseystowell/CLionProjects/ReverseFile/main.c">
-			<Option target="ReverseFile"/>
-		</Unit>
 		<Unit filename="/Users/kaseystowell/CLionProjects/ReverseFile/reverse.c">
 			<Option target="ReverseFile"/>
 		</Unit>

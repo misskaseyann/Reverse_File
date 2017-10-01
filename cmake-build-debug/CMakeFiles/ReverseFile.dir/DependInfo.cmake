@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/kaseystowell/CLionProjects/ReverseFile/files_utils.c" "/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles/ReverseFile.dir/files_utils.c.o"
-  "/Users/kaseystowell/CLionProjects/ReverseFile/main.c" "/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles/ReverseFile.dir/main.c.o"
   "/Users/kaseystowell/CLionProjects/ReverseFile/reverse.c" "/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles/ReverseFile.dir/reverse.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

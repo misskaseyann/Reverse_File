@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kaseystowell/CLionProjects/ReverseFile/file_utils.h
+
+/Users/kaseystowell/CLionProjects/ReverseFile/files_utils.c
+file_utils.h
+/Users/kaseystowell/CLionProjects/ReverseFile/file_utils.h
+stdio.h
+-
+stdlib.h
+-
+
+/Users/kaseystowell/CLionProjects/ReverseFile/reverse.c
+file_utils.h
+/Users/kaseystowell/CLionProjects/ReverseFile/file_utils.h
+

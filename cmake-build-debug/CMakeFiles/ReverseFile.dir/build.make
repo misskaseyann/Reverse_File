@@ -57,33 +57,9 @@ include CMakeFiles/ReverseFile.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ReverseFile.dir/flags.make
 
-CMakeFiles/ReverseFile.dir/main.c.o: CMakeFiles/ReverseFile.dir/flags.make
-CMakeFiles/ReverseFile.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ReverseFile.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ReverseFile.dir/main.c.o   -c /Users/kaseystowell/CLionProjects/ReverseFile/main.c
-
-CMakeFiles/ReverseFile.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ReverseFile.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kaseystowell/CLionProjects/ReverseFile/main.c > CMakeFiles/ReverseFile.dir/main.c.i
-
-CMakeFiles/ReverseFile.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ReverseFile.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kaseystowell/CLionProjects/ReverseFile/main.c -o CMakeFiles/ReverseFile.dir/main.c.s
-
-CMakeFiles/ReverseFile.dir/main.c.o.requires:
-
-.PHONY : CMakeFiles/ReverseFile.dir/main.c.o.requires
-
-CMakeFiles/ReverseFile.dir/main.c.o.provides: CMakeFiles/ReverseFile.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/ReverseFile.dir/build.make CMakeFiles/ReverseFile.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/ReverseFile.dir/main.c.o.provides
-
-CMakeFiles/ReverseFile.dir/main.c.o.provides.build: CMakeFiles/ReverseFile.dir/main.c.o
-
-
 CMakeFiles/ReverseFile.dir/files_utils.c.o: CMakeFiles/ReverseFile.dir/flags.make
 CMakeFiles/ReverseFile.dir/files_utils.c.o: ../files_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ReverseFile.dir/files_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ReverseFile.dir/files_utils.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ReverseFile.dir/files_utils.c.o   -c /Users/kaseystowell/CLionProjects/ReverseFile/files_utils.c
 
 CMakeFiles/ReverseFile.dir/files_utils.c.i: cmake_force
@@ -107,7 +83,7 @@ CMakeFiles/ReverseFile.dir/files_utils.c.o.provides.build: CMakeFiles/ReverseFil
 
 CMakeFiles/ReverseFile.dir/reverse.c.o: CMakeFiles/ReverseFile.dir/flags.make
 CMakeFiles/ReverseFile.dir/reverse.c.o: ../reverse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ReverseFile.dir/reverse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ReverseFile.dir/reverse.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ReverseFile.dir/reverse.c.o   -c /Users/kaseystowell/CLionProjects/ReverseFile/reverse.c
 
 CMakeFiles/ReverseFile.dir/reverse.c.i: cmake_force
@@ -131,19 +107,17 @@ CMakeFiles/ReverseFile.dir/reverse.c.o.provides.build: CMakeFiles/ReverseFile.di
 
 # Object files for target ReverseFile
 ReverseFile_OBJECTS = \
-"CMakeFiles/ReverseFile.dir/main.c.o" \
 "CMakeFiles/ReverseFile.dir/files_utils.c.o" \
 "CMakeFiles/ReverseFile.dir/reverse.c.o"
 
 # External object files for target ReverseFile
 ReverseFile_EXTERNAL_OBJECTS =
 
-ReverseFile: CMakeFiles/ReverseFile.dir/main.c.o
 ReverseFile: CMakeFiles/ReverseFile.dir/files_utils.c.o
 ReverseFile: CMakeFiles/ReverseFile.dir/reverse.c.o
 ReverseFile: CMakeFiles/ReverseFile.dir/build.make
 ReverseFile: CMakeFiles/ReverseFile.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ReverseFile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kaseystowell/CLionProjects/ReverseFile/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ReverseFile"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ReverseFile.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,7 +125,6 @@ CMakeFiles/ReverseFile.dir/build: ReverseFile
 
 .PHONY : CMakeFiles/ReverseFile.dir/build
 
-CMakeFiles/ReverseFile.dir/requires: CMakeFiles/ReverseFile.dir/main.c.o.requires
 CMakeFiles/ReverseFile.dir/requires: CMakeFiles/ReverseFile.dir/files_utils.c.o.requires
 CMakeFiles/ReverseFile.dir/requires: CMakeFiles/ReverseFile.dir/reverse.c.o.requires
 
