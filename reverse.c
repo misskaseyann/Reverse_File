@@ -1,5 +1,10 @@
 //
-// Created by Kasey Stowell on 9/28/17.
+// Takes two arguments from the command line.
+//
+// Reads the text file from the first argument, reverses it, and then saves as the
+// file name specified in the second argument.
+//
+// Created by Kasey Stowell on 9/28/17 based on Ira Woodring's 343 homework and lectures.
 //
 
 #include "file_utils.h"
